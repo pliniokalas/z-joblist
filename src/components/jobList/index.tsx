@@ -113,11 +113,13 @@ function JobList({ jobs }: { jobs: IJob[] }) {
 
       {!isLoading &&
       <>
-        <Pagination
-          count={jobsPage.totalPages}
-          page={pageNumber}
-          onChange={(_, p) => changePage(p)}
-        />
+        {(jobsPage.totalPages > 1) &&
+          <Pagination
+            count={jobsPage.totalPages}
+            page={pageNumber}
+            onChange={(_, p) => changePage(p)}
+          />
+        }
 
         {/* The actual list of cards. */}
         <ul className={css.list}>

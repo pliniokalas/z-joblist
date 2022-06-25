@@ -22,3 +22,7 @@ ul, menu {
 ul > li {
   list-style-type: none;
 }
+
+.MuiPagination-ul {
+  justify-content: center;
+}
