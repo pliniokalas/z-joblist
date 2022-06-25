@@ -1,0 +1,23 @@
+.company {
+  padding: .3rem;
+  border: 1px solid lightgray;
+  border-radius: .2rem;
+  color: initial;
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: gray;
+}
+
+.chipList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chipList > * {
+  margin: .2rem;
+}
