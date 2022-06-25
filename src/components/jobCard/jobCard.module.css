@@ -7,6 +7,7 @@
 
 .headerRow {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-size: 0.85em;
   font-weight: 600;

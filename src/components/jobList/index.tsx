@@ -77,6 +77,7 @@ function JobList({ jobs }: { jobs: IJob[] }) {
             endAdornment: <InputAdornment position="end"><SearchIcon /></InputAdornment>,
           }}
           onKeyUp={(e) => handleSearch(e)}
+          fullWidth
         />
 
         <label className={css.controlLabel}>

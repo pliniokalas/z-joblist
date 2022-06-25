@@ -22,7 +22,13 @@
 }
 
 .listControls {
+  display: flex;
+  flex-wrap: wrap;
   margin: 1rem 0;
+}
+
+.listControls > * {
+  margin-top: .5rem;
 }
 
 .listControls > *:not(:last-child) {
